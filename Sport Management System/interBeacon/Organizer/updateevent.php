@@ -6,9 +6,9 @@ $start_date=$_POST['start_date'];
 $end_date=$_POST['end_date'];
 $time=$_POST['time'];
 $servername = "localhost";
-$username = 'id1298591_sportpro';
+$username = 'id1298591_interbeacon';
 $password = '11111';
-$dbname = "id1298591_sportpro";
+$dbname = "id1298591_interbeacon";
 // Create connection
 $conn = new mysqli($servername, $username, $password,$dbname);
 // Check connection

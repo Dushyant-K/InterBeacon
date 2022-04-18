@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = 'id1298591_sportpro';
+$username = 'id1298591_interbeacon';
 $password = '11111';
-$dbname = "id1298591_sportpro";
+$dbname = "id1298591_interbeacon";
 // Create connection
 $conn = new mysqli($servername, $username, $password,$dbname);
 // Check connection
@@ -89,7 +89,7 @@ if ($result->num_rows > 0) {
 </div>
 
 <footer>
-  <p>Copyright 2016-2020 by VG corporation. All Rights Reserved.</p>
+  <p>Copyright 2020-2024 by IIITM Group 21. All Rights Reserved.</p>
 </footer>
 
 </body>

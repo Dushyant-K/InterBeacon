@@ -6,9 +6,9 @@ $email=$_POST['email'];
 $class=$_POST['class'];
 $contact=$_POST['contact'];
 $servername = "localhost";
-$username = 'id1298591_sportpro';
+$username = 'id1298591_InterBeacon';
 $password = '11111';
-$dbname = "id1298591_sportpro";
+$dbname = "id1298591_InterBeacon";
 // Create connection
 $conn = new mysqli($servername, $username, $password,$dbname);
 // Check connection
@@ -30,7 +30,7 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
 // More headers
-$headers .= 'From: <sportpro.com>' . "\r\n";
+$headers .= 'From: <InterBeacon.com>' . "\r\n";
 $headers .= 'Cc: myboss@example.com' . "\r\n";
 
 mail($email,$subject,$message,$headers);

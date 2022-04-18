@@ -4,9 +4,9 @@ $first=$_POST['1st'];
 $second=$_POST['2nd'];
 $third=$_POST['3rd'];
 $servername = "localhost";
-$username = 'id1298591_sportpro';
+$username = 'id1298591_interbeacon';
 $password = '11111';
-$dbname = "id1298591_sportpro";
+$dbname = "id1298591_interbeacon";
 // Create connection
 $conn = new mysqli($servername, $username, $password,$dbname);
 // Check connection

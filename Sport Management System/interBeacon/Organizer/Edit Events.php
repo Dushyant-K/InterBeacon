@@ -12,6 +12,7 @@ if ($conn->connect_error) {
 //echo "Connected successfully";
 ?>
 <!DOCTYPE html>
+
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,7 +29,7 @@ ga('send', 'pageview');
 <body>
 <header>
 <img src="http://vectorlogofree.com/wp-content/uploads/2013/01/canadian-olympic-team-logo-vector-400x400.png" width="100px" height="80px">
-<h1 class="liketext">SportPro
+<h1 class="liketext">InterBeacon
 <a href ="index.html"> <input type="button" value="Logout" style="float:right;"></a></h1>
 </header>
 
@@ -74,8 +75,8 @@ if ($result->num_rows > 0) {
 
 </select>
 Type:<select name="type" required class="smalltext">
-  <option value="indoor">Indoor</option>
-  <option value="outoor">Outdoor</option>
+  <option value="indoor">Indoor Games </option>
+  <option value="outoor">Outdoor Games</option>
 
 </select><br><br>
 
@@ -103,7 +104,7 @@ Event Time:
 </div>
 
 <footer>
-  <p>Copyright 2016-2020 by VG corporation. All Rights Reserved.</p>
+  <p>Copyright 2020-2024 by IIITM Group 21. All Rights Reserved.</p>
 </footer>
 
 </body>

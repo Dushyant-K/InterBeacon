@@ -2,16 +2,16 @@
 $myusername = $_POST['u'];
 $mypassword = $_POST['p'];
 $servername = "localhost";
-$username = 'id1298591_sportpro';
+$username = 'id1298591_interbeacon';
 $password = '11111';
-$dbname = "id1298591_sportpro";
+$dbname = "id1298591_interbeacon";
 // Create connection
 $conn = new mysqli($servername, $username, $password,$dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 } 
-//echo "Connected successfully";
+
 
 $sql = "SELECT username FROM admin WHERE username = '$myusername' and password = '$mypassword'";
 $result =$conn->query($sql);
