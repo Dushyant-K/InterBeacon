@@ -11,6 +11,37 @@ In Inter-College Sporting Events, many colleges and universities of different ci
 InterBeacon does the required job. As it connects all the students, organizers, and the respective authorities, it makes it easier for notifying, also participants know about the schedules of the games and many such issues. Also, there are alternate ways like Gmail, making WhatsApp groups, and calling but this app brings everything to one place and simplifies the process. Also, transparency in scores and results can be maintained as everything is maintained in one place.
 InterBeacon is specifically made for college events and solves related problems.
 
+### Screenshots
+* Organizers can login in the app using their gmail or phone number.
+
+![Organizers Login Screenshot](https://github.com/aryanO-o/InterBeacon/blob/caf53a1ab903af22a4532873ae883a2bc8962338/Event%20Management%20System/Screenshots/Organizers%20Login.jpeg)
+
+
+
+* This page is used by the participants to login.
+
+![Participant Login 1](https://github.com/aryanO-o/InterBeacon/blob/caf53a1ab903af22a4532873ae883a2bc8962338/Event%20Management%20System/Screenshots/Participant%20Login.jpeg)
+
+
+
+* This is the main interface of our website and contains information about events and results.
+
+![Index](https://github.com/aryanO-o/InterBeacon/blob/caf53a1ab903af22a4532873ae883a2bc8962338/Event%20Management%20System/Screenshots/Main.jpeg)
+
+
+
+* This page contains a brief description about us.
+
+![About Us](https://github.com/aryanO-o/InterBeacon/blob/caf53a1ab903af22a4532873ae883a2bc8962338/Event%20Management%20System/Screenshots/About%20Us.jpeg)
+![About Us 2](https://github.com/aryanO-o/InterBeacon/blob/caf53a1ab903af22a4532873ae883a2bc8962338/Event%20Management%20System/Screenshots/About%20Us%202.jpeg)
+
+
+
+* This page is used to add new events by the organizer.
+
+![Add Event](https://github.com/aryanO-o/InterBeacon/blob/caf53a1ab903af22a4532873ae883a2bc8962338/Event%20Management%20System/Screenshots/Add%20Events.jpeg)
+
+
 
 ### Tech Stacks
 - Frontend
